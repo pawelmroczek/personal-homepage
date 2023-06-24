@@ -5,12 +5,14 @@ import HeaderText from "./features/Header/HeaderText";
 import ToggleMode from "./features/Header/ToggleMode";
 import HireButton from "./features/Header/Button";
 import Skillset from "./features/Skillset";
+import Portfolio from "./features/Portfolio";
 
 function App() {
   return (
     <Container >
       <Header img={profilePicture} content={<HeaderText/>} extraContent1={<ToggleMode/>} extraContent2={<HireButton/>}/>
       <Skillset/>
+      <Portfolio/>
     </Container>
   );
 }
