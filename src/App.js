@@ -1,22 +1,14 @@
-
+import { Container } from "./common/Container";
+import Header from "./common/Header";
+import profilePicture from "./images/profilePicture.png"
+import HeaderText from "./features/Header/HeaderText";
+import ToggleMode from "./features/Header/ToggleMode";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container >
+      <Header img={profilePicture} content={<HeaderText/>} extraContent1={<ToggleMode/>}/>
+    </Container>
   );
 }
 
