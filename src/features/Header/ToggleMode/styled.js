@@ -18,9 +18,12 @@ export const Button = styled.button`
   background:none;
 `
 
-export const IconBackground = styled.img`
+export const IconBackground = styled.div`
   position:absolute;
   margin:3px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 `
 
 export const Icon = styled.div`
