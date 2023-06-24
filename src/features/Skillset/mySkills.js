@@ -1,0 +1,35 @@
+export const mySkills ={
+  actuall:[
+    "Semantic & accessible HTML",
+    "React Router",
+    "Promises, Async/Await",
+    "Responsive Web Design",
+    "Redux-Saga",
+    "GitHub Pull Requests & Review",
+    "Teamwork",
+    "Redux (Toolkit)",
+    "Trello",
+    "Markdown",
+    "React Hooks",
+    "Scrum",
+    "Immutability",
+    "Error handling",
+    "NPM",
+    "CSS BEM convention",
+    "Working with API (fetch, axios)",
+    "React",
+    "CSS Grid",
+    "JavaScript: ES6+",
+    "Git",
+    "CSS Flexbox",
+  ],
+  next:[
+    "Node.js",
+    "React Context",
+    "Cypress",
+    "Unit testing",
+    "TypeScript",
+    "JS classes",
+    "Flutter"
+  ]
+}
