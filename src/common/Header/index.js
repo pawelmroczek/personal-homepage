@@ -1,4 +1,9 @@
-import { Wrapper, StyledImg, ContentWrapper, ExtraContentWrapper } from "./styled";
+import {
+  Wrapper,
+  StyledImg,
+  ContentWrapper,
+  ExtraContentWrapper,
+} from "./styled";
 
 const Header = ({ img, content, extraContent1, extraContent2 }) => (
   <Wrapper>
@@ -6,7 +11,7 @@ const Header = ({ img, content, extraContent1, extraContent2 }) => (
     <ContentWrapper>
       <ExtraContentWrapper>{extraContent1}</ExtraContentWrapper>
       {content}
-      {extraContent2}
+      <div>{extraContent2}</div>
     </ContentWrapper>
   </Wrapper>
 );

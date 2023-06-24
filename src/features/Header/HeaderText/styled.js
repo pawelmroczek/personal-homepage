@@ -16,4 +16,5 @@ export const StyledParagrapgh = styled.p`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 1px;
+  margin:0px;
 `;
