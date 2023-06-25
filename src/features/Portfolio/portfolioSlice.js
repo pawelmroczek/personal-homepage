@@ -12,10 +12,13 @@ const portfolioSlice = createSlice({
     setProjects: (state, { payload: projects }) => {
       state.projects = projects;
     },
+    setStatus:(state, {payload: status})=>{
+      state.status=status;
+    }
   },
 });
 
-export const { fetchProjects, setProjects } = portfolioSlice.actions;
+export const { fetchProjects, setProjects, setStatus } = portfolioSlice.actions;
 
 export const selectPortfolioState = (state) => state.portfolio;
 export const selectMode = (state) => selectPortfolioState(state).mode;
