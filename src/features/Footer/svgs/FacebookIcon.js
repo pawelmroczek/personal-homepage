@@ -1,6 +1,8 @@
+import { StyledSVG } from "../../../common/svg";
+
 export const FacebookIcon = ({ hover }) => {
   return (
-    <svg
+    <StyledSVG
       width="48"
       height="48"
       viewBox="0 0 48 48"
@@ -20,6 +22,6 @@ export const FacebookIcon = ({ hover }) => {
           </g>
         </g>
       </g>
-    </svg>
+    </StyledSVG>
   );
 };

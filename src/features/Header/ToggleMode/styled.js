@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
 export const Wrapper= styled.div`
   margin-bottom:38px;
@@ -24,6 +24,11 @@ export const IconBackground = styled.div`
   display:flex;
   align-items:center;
   justify-content:center;
+  transition: margin-left 0.3s ease-in-out;
+
+  ${({darkMode})=> darkMode && css`
+    margin-left:25px;
+  `}
 `
 
 export const Icon = styled.div`
@@ -32,4 +37,9 @@ export const Icon = styled.div`
   display:flex;
   align-items:center;
   justify-content:center;
+  transition: margin-left 0.3s ease-in-out;
+
+  ${({darkMode})=> darkMode && css`
+    margin-left:28px;
+  `}
 `

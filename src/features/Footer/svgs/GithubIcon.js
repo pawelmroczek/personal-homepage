@@ -1,6 +1,8 @@
+import { StyledSVG } from "../../../common/svg";
+
 export const GithubIcon = ({ hover }) => {
   return (
-    <svg
+    <StyledSVG
       width="48"
       height="48"
       viewBox="0 0 48 48"
@@ -53,6 +55,6 @@ export const GithubIcon = ({ hover }) => {
           </g>
         </g>
       </g>
-    </svg>
+    </StyledSVG>
   );
 };

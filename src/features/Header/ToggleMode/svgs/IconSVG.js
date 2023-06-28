@@ -1,6 +1,8 @@
+import { StyledSVG } from "../../../../common/svg";
+
 export const IconSVG = ({ darkMode, hover }) => {
   return (
-    <svg
+    <StyledSVG
       width="14"
       height="14"
       viewBox="0 0 14 14"
@@ -65,6 +67,6 @@ export const IconSVG = ({ darkMode, hover }) => {
           <rect width="14" height="14" fill="white" />
         </clipPath>
       </defs>
-    </svg>
+    </StyledSVG>
   );
 };

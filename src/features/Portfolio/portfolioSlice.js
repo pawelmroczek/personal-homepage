@@ -14,11 +14,18 @@ const portfolioSlice = createSlice({
     },
     setStatus:(state, {payload: status})=>{
       state.status=status;
+    },
+    toggleMode:(state) =>{
+      if(state.mode ==="light"){
+        state.mode = "dark";
+      }else{
+        state.mode ="light"
+      }
     }
   },
 });
 
-export const { fetchProjects, setProjects, setStatus } = portfolioSlice.actions;
+export const { fetchProjects, setProjects, setStatus, toggleMode } = portfolioSlice.actions;
 
 export const selectPortfolioState = (state) => state.portfolio;
 export const selectMode = (state) => selectPortfolioState(state).mode;

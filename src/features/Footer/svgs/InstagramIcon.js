@@ -1,6 +1,8 @@
+import { StyledSVG } from "../../../common/svg";
+
 export const InstagramIcon = ({ hover }) => {
   return (
-    <svg
+    <StyledSVG
       width="48"
       height="48"
       viewBox="0 0 48 48"
@@ -30,6 +32,6 @@ export const InstagramIcon = ({ hover }) => {
           />
         </g>
       </g>
-    </svg>
+    </StyledSVG>
   );
 };
