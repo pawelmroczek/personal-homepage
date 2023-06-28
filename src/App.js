@@ -6,6 +6,7 @@ import ToggleMode from "./features/Header/ToggleMode";
 import HireButton from "./features/Header/Button";
 import Skillset from "./features/Skillset";
 import Portfolio from "./features/Portfolio";
+import Footer from "./features/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header img={profilePicture} content={<HeaderText/>} extraContent1={<ToggleMode/>} extraContent2={<HireButton/>}/>
       <Skillset/>
       <Portfolio/>
+      <Footer/>
     </Container>
   );
 }
