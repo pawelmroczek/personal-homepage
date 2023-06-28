@@ -1,4 +1,4 @@
-import { StyledSpan } from "../Span";
+import { StyledSpan } from "../../../common/Span";
 import { Button, Wrapper, IconBackground, Icon } from "./styled";
 import buttonFrame from "../../../images/buttonFrame.svg"
 import toggle from "../../../images/toggle.svg"

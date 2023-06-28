@@ -1,14 +1,14 @@
-import { StyledSpan } from "../Span";
-import { Wrapper, StyledHeader, StyledParagrapgh } from "./styled";
+import { StyledSpan } from "../../../common/Span";
+import { Wrapper, StyledHeader, StyledParagraph } from "./styled";
 
 const HeaderText = () => (
   <Wrapper>
     <StyledSpan>This is</StyledSpan>
-    <StyledHeader>Krzysiek Dąbrowski</StyledHeader>
-    <StyledParagrapgh>
+    <StyledHeader>Paweł Mroczek</StyledHeader>
+    <StyledParagraph>
       👨🏻‍💻 I'm a passionate Frontend Developer in love with React, <br />
       currently looking for new job opportunities.
-    </StyledParagrapgh>
+    </StyledParagraph>
   </Wrapper>
 );
 
