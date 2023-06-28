@@ -12,7 +12,7 @@ export const StyledHeader = styled.h1`
   margin: 12px 0 35px 0;
 `;
 
-export const StyledParagrapgh = styled.p`
+export const StyledParagraph = styled.p`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 1px;
