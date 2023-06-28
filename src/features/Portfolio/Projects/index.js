@@ -1,10 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import {
-  fetchProjects,
-  selectPortfolioState,
-  selectProjects,
-  selectStatus,
-} from "../portfolioSlice";
+import { fetchProjects, selectStatus } from "../portfolioSlice";
 import Loading from "./Loading";
 import { useEffect } from "react";
 import Success from "./Success";
@@ -18,18 +13,14 @@ const Projects = () => {
   }, []);
 
   const status = useSelector(selectStatus);
-  const projects = useSelector(selectProjects);
+
   switch (status) {
     case "loading":
       return <Loading />;
     case "success":
-      return <Success/>;
+      return <Success />;
     case "error":
-      return <Failure/>
-  }
-  {
-    console.log(status);
-    console.log(projects);
+      return <Failure />;
   }
 };
 
