@@ -12,8 +12,8 @@ const Success = () => {
           <Title>{project.name}</Title>
           <StyledParagraph>{project.description}</StyledParagraph>
           <div>
-            Demo: <StyledLink>{project.homepage}</StyledLink> <br />
-            Code: <StyledLink>{project.html_url}</StyledLink>
+            Demo: <StyledLink href={project.homepage}>{project.homepage}</StyledLink> <br />
+            Code: <StyledLink href={project.html_url}>{project.html_url}</StyledLink>
           </div>
         </Tile>
       ))}

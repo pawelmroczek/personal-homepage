@@ -17,11 +17,9 @@ export const Tile = styled.div`
   padding: 56px;
   box-shadow: 0px 16px 58px 0px rgba(9, 10, 51, 0.03),
     0px -2px 50px 0px rgba(9, 10, 51, 0.02);
-
   display: flex;
-  flex-direction:column;
-  justify-content:space-between;
-  
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const Title = styled.h3`
@@ -40,6 +38,7 @@ export const StyledLink = styled.a`
   font-size: 18px;
   font-family: Inter;
   line-height: 140%;
+  text-decoration: none;
   letter-spacing: 0.9px;
   color: ${({ theme }) => theme.colors.scienceBlue};
   border-bottom: 1px solid ${({ theme }) => theme.colors.scienceBlue + "33"};
