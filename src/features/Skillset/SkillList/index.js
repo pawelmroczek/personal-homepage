@@ -1,11 +1,11 @@
 import { StyledList, StyledItem, StyledImg } from "./styled";
-import Bullet from "../../../images/Ellipse 31.svg"
+import { Dot } from "./svgs/dot";
 
 const SkillList = ({ skills }) => {
   return (
     <StyledList>
       {skills.map(skill=>(
-         <StyledItem><StyledImg src={Bullet}/>{skill}</StyledItem>
+         <StyledItem><Dot/>{skill}</StyledItem>
       ))}
     </StyledList>
   );

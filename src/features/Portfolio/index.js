@@ -1,11 +1,11 @@
 import { PortfolioHeader, StyledSpan, StyledTilte, Wrapper } from "./styled";
-import GitLogo from "../../images/mark-github.svg";
 import Projects from "./Projects";
+import { GithubLogo } from "./svgs/GithubLogo";
 
 const Portfolio = () => (
   <Wrapper>
     <PortfolioHeader>
-      <img src={GitLogo} />
+      <GithubLogo/>
       <StyledTilte>Portfolio</StyledTilte>
       <StyledSpan>My recent projects</StyledSpan>
     </PortfolioHeader>
