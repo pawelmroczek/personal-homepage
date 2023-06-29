@@ -7,8 +7,10 @@ const theme = {
       mainText: "#252525",
       textSecondary: "#6E7E91",
       blue: "#0366D6",
-      linkBorder:"#0366D633",
+      linkBorder: "#0366D633",
       diffBGNeutral: "#D1D5DA4D",
+      boxShadow:
+        "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02);",
     },
   },
   dark: {
@@ -19,7 +21,7 @@ const theme = {
       mainText: "#FFFFFF",
       textSecondary: "#FFFFFF",
       blue: "#2188FF",
-      linkBorder:"#2188FF66",
+      linkBorder: "#2188FF66",
       diffBGNeutral: "#D1D5DA1A",
     },
   },

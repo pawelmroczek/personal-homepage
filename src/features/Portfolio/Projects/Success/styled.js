@@ -15,11 +15,12 @@ export const Container = styled.div`
 export const Tile = styled.div`
   background-color: ${({ theme }) => theme.colors.tileBackground};
   padding: 56px;
-  box-shadow: 0px 16px 58px 0px rgba(9, 10, 51, 0.03),
-    0px -2px 50px 0px rgba(9, 10, 51, 0.02);
+  box-shadow:${({theme})=>theme.colors.boxShadow};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 4px;
+  border: 6px solid ${({theme})=>theme.colors.diffBGNeutral};
 `;
 
 export const Title = styled.h3`
