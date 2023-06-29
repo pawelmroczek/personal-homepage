@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledLink = styled.a`
-  background-color: ${({ theme }) => theme.colors.scienceBlue};
+  background-color: ${({ theme }) => theme.colors.blue};
   font-size: 20.058px;
   font-family: Inter;
   font-weight: 600;

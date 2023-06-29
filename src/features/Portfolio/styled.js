@@ -17,7 +17,7 @@ export const StyledTilte = styled.h2`
   margin: 12px 0 8px;
   font-weight: 900;
   letter-spacing: 1.5px;
-  color: ${({ theme }) => theme.colors.blackText};
+  color: ${({ theme }) => theme.colors.mainText};
 `;
 
 export const StyledSpan = styled.span`
@@ -25,5 +25,5 @@ export const StyledSpan = styled.span`
   font-family: Inter;
   line-height: 140%;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.colors.blackText};
+  color: ${({ theme }) => theme.colors.mainText};
 `;

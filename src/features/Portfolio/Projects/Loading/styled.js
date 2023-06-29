@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   font-family: Inter;
   line-height: 140%;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.colors.blackText};
+  color: ${({ theme }) => theme.colors.mainText};
   padding-top: 88px;
   gap: 48px;
 `;

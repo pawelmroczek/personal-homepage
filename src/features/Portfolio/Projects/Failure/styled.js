@@ -26,7 +26,7 @@ export const Link = styled.a`
   font-weight: 600;
   letter-spacing: 1.003px;
   text-decoration:none;
-  background-color:${({ theme }) => theme.colors.scienceBlue};
+  background-color:${({ theme }) => theme.colors.blue};
   border-radius: 4px;
   border: 1px solid var(--semi-grey, rgba(209, 213, 218, 0.10));
   color:${({theme})=>theme.colors.white};

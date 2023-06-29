@@ -1,21 +1,18 @@
-import { Container } from "./common/Container";
-import Header from "./common/Header";
-import profilePicture from "./images/profilePicture.png"
-import HeaderText from "./features/Header/HeaderText";
-import ToggleMode from "./features/Header/ToggleMode";
-import HireButton from "./features/Header/Button";
-import Skillset from "./features/Skillset";
-import Portfolio from "./features/Portfolio";
-import Footer from "./features/Footer";
+import { ThemeProvider } from "styled-components";
+import CV from "./features/CV";
+import { GlobalStyle } from "./GlobalStyle";
+import theme from "./theme";
+import { useSelector } from "react-redux";
+import { selectMode } from "./features/Portfolio/portfolioSlice";
 
 function App() {
+  const mode = useSelector(selectMode)
+
   return (
-    <Container >
-      <Header img={profilePicture} content={<HeaderText/>} extraContent1={<ToggleMode/>} extraContent2={<HireButton/>}/>
-      <Skillset/>
-      <Portfolio/>
-      <Footer/>
-    </Container>
+    <ThemeProvider theme={theme[mode]}>
+      <GlobalStyle />
+      <CV />
+    </ThemeProvider>
   );
 }
 

@@ -11,7 +11,7 @@ export const Email = styled.a`
   font-family: Inter;
   font-weight: 900;
   letter-spacing: 1.6px;
-  color: ${({ theme }) => theme.colors.blackText};
+  color: ${({ theme }) => theme.colors.mainText};
   margin: 24px 0;
   text-decoration: none;
 `;
@@ -21,7 +21,7 @@ export const StyledParagraph = styled.p`
   font-family: Inter;
   line-height: 140%;
   letter-spacing: 0.9px;
-  color: ${({ theme }) => theme.colors.blackText};
+  color: ${({ theme }) => theme.colors.mainText};
   margin: 0 0 56px;
 `;
 

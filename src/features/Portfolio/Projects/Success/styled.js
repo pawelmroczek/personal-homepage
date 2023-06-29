@@ -13,7 +13,7 @@ export const Container = styled.div`
 `;
 
 export const Tile = styled.div`
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.tileBackground};
   padding: 56px;
   box-shadow: 0px 16px 58px 0px rgba(9, 10, 51, 0.03),
     0px -2px 50px 0px rgba(9, 10, 51, 0.02);
@@ -27,7 +27,7 @@ export const Title = styled.h3`
   font-family: Inter;
   font-weight: 700;
   letter-spacing: 1.2px;
-  color: ${({ theme }) => theme.colors.scienceBlue};
+  color: ${({ theme }) => theme.colors.blue};
   margin: 0;
 `;
 
@@ -40,6 +40,6 @@ export const StyledLink = styled.a`
   line-height: 140%;
   text-decoration: none;
   letter-spacing: 0.9px;
-  color: ${({ theme }) => theme.colors.scienceBlue};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.scienceBlue + "33"};
+  color: ${({ theme }) => theme.colors.blue};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.linkBorder};
 `;

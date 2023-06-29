@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-      background-color: ${({theme})=> theme.colors.BGLightMode};
+      background-color: ${({theme})=> theme.colors.background};
       font-family: 'Inter', sans-serif;
     }
 
