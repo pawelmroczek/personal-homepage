@@ -12,7 +12,7 @@ export const BGIconSVG = ({ hover, darkMode }) => {
       <path
         id="toggle"
         d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"
-        fill="#6E7E91"
+        fill={darkMode ? "#FFFFFF" : "#6E7E91"}
       />
     </StyledSVG>
   );
