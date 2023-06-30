@@ -32,4 +32,10 @@ export const Icon = styled.span`
 export const LinksContainer = styled.div`
   display:flex;
   gap:24px;
+  color:${({theme})=>theme.colors.mainText};
+`
+export const LogoLink = styled.a`
+  &:hover{
+    color:${({theme})=>theme.colors.blue}
+  }
 `

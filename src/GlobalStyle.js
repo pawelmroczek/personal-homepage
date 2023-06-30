@@ -16,4 +16,9 @@ export const GlobalStyle = createGlobalStyle`
       font-family: 'Inter', sans-serif;
     }
 
+    svg{
+      fill:currentColor;
+    }
+
+
 `;

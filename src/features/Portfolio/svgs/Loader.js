@@ -20,11 +20,13 @@ export const Loader = () => {
         stroke="#D1D5DA"
         stroke-opacity="0.3"
         stroke-width="11.375"
+        fill="none"
       />
       <path
         d="M132.547 27.4531C146.483 41.3894 154.312 60.2911 154.312 80C154.313 99.7089 146.483 118.611 132.547 132.547"
-        stroke={mode === "dark" ? "#2188FF" : "#0366D6"}
+        stroke="currentColor"
         stroke-width="11.375"
+        fill="none"
       />
     </Icon>
   );

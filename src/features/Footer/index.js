@@ -5,6 +5,7 @@ import {
   StyledParagraph,
   Icon,
   LinksContainer,
+  LogoLink,
 } from "./styled";
 import { GithubIcon } from "./svgs/GithubIcon";
 import { FacebookIcon } from "./svgs/FacebookIcon";
@@ -23,10 +24,18 @@ const Footer = () => (
       ideas come to life, feel free to conatct me <Icon>🤞</Icon>
     </StyledParagraph>
     <LinksContainer>
-      <GithubIcon />
-      <FacebookIcon />
-      <LinkedinIcon />
-      <InstagramIcon/>
+      <LogoLink>
+        <GithubIcon />
+      </LogoLink>
+      <LogoLink>
+        <FacebookIcon />
+      </LogoLink>
+      <LogoLink>
+        <LinkedinIcon />
+      </LogoLink>
+      <LogoLink>
+        <InstagramIcon />
+      </LogoLink>
     </LinksContainer>
   </Container>
 );
