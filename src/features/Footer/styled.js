@@ -12,9 +12,18 @@ export const Email = styled.a`
   font-weight: 900;
   letter-spacing: 1.6px;
   color: ${({ theme }) => theme.colors.mainText};
-  margin: 24px 0;
   text-decoration: none;
+  transition: color 0.4s ease-in-out;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.blue};
+  }
 `;
+
+export const EmailContainer = styled.div`
+  margin: 24px 0;
+`;
+
 export const StyledParagraph = styled.p`
   width: 670px;
   font-size: 18px;
@@ -30,12 +39,15 @@ export const Icon = styled.span`
 `;
 
 export const LinksContainer = styled.div`
-  display:flex;
-  gap:24px;
-  color:${({theme})=>theme.colors.mainText};
-`
+  display: flex;
+  gap: 24px;
+  color: ${({ theme }) => theme.colors.mainText};
+  
+`;
 export const LogoLink = styled.a`
-  &:hover{
-    color:${({theme})=>theme.colors.blue}
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.blue};
   }
-`
+`;

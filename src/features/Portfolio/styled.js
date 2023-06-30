@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 export const Wrapper = styled.section`
   padding: 0px;
   margin-top: 72px;
-  color:${({theme})=>theme.colors.blue}
+  color: ${({ theme }) => theme.colors.blue};
 `;
 
 export const PortfolioHeader = styled.div`

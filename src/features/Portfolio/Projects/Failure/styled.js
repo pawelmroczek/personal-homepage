@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
   line-height: 140%;
   letter-spacing: 1px;
   text-align: center;
+  color: ${({theme})=>theme.colors.mainText}
 `;
 export const Title = styled.h3`
   font-size: 24px;

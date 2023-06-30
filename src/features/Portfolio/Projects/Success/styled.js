@@ -15,12 +15,16 @@ export const Container = styled.div`
 export const Tile = styled.div`
   background-color: ${({ theme }) => theme.colors.tileBackground};
   padding: 56px;
-  box-shadow:${({theme})=>theme.colors.boxShadow};
+  box-shadow: ${({ theme }) => theme.colors.boxShadow};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 4px;
-  border: 6px solid ${({theme})=>theme.colors.diffBGNeutral};
+  border: 6px solid ${({ theme }) => theme.colors.diffBGNeutral};
+
+  &:hover {
+    border: 6px solid ${({ theme }) => theme.colors.tileBorder};
+  }
 `;
 
 export const Title = styled.h3`
@@ -43,4 +47,9 @@ export const StyledLink = styled.a`
   letter-spacing: 0.9px;
   color: ${({ theme }) => theme.colors.blue};
   border-bottom: 1px solid ${({ theme }) => theme.colors.linkBorder};
+  transition: border-bottom 0.4s ease-in-out;
+  word-wrap: break-word;
+  &:hover {
+    border-bottom: 1px solid ${({ theme }) => theme.colors.linkBorderHover};
+  }
 `;
