@@ -20,4 +20,9 @@ export const StyledLink = styled.a`
   &:hover {
     box-shadow:${({theme})=>theme.colors.buttonFocus};
   }
+
+  &:active{
+   box-shadow:${({theme})=>theme.colors.buttonActive}
+  }
+
 `;

@@ -12,9 +12,10 @@ const theme = {
       diffBGNeutral: "#D1D5DA4D",
       tileBorder: "rgba(3, 102, 214, 0.20)",
       buttonFocus:
-        "-2px -2px 0px 0px #8CC2FF, 2px 2px 0px 0px #8CC2FF, -2px 2px 0px 0px #8CC2FF, 2px -2px 0px 0px #8CC2FF;",
+        "-2px -2px 0px 0px #8CC2FF, 2px 2px 0px 0px #8CC2FF, -2px 2px 0px 0px #8CC2FF, 2px -2px 0px 0px #8CC2FF",
+      buttonActive: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
       boxShadow:
-        "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02);",
+        "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02)",
     },
   },
   dark: {
@@ -31,8 +32,9 @@ const theme = {
       tileBorder: "rgba(3, 102, 214, 0.50)",
       buttonFocus:
         "-2px -2px 0px 0px #6D93BE, 2px 2px 0px 0px #6D93BE, -2px 2px 0px 0px #6D93BE, 2px -2px 0px 0px #6D93BE",
+      buttonActive: "",
       boxShadow:
-        "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02);",
+        "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02)",
     },
   },
 };
