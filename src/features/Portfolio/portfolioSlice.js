@@ -1,9 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { getModeFromLocalStorage } from "../../modeLocalStorage";
 
 const portfolioSlice = createSlice({
   name: "portfolio",
   initialState: {
-    mode: "light",
+    mode: getModeFromLocalStorage(),
     projects: [],
     status: "loading",
   },
