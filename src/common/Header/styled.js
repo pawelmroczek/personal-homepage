@@ -2,9 +2,10 @@ import { styled } from "styled-components";
 
 export const Wrapper = styled.header`
   width:100%;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap:66px;
+  display:flex;
+  gap:66px;
+  position: relative;
+  align-items:center;
 `;
 
 export const StyledImg = styled.img`
@@ -16,8 +17,10 @@ export const StyledImg = styled.img`
 export const ContentWrapper = styled.div`
   display:flex;
   flex-direction:column;
-  justify-items:flex-start;
+  justify-items:center;
 `
 export const ExtraContentWrapper = styled.div`
-  align-self:flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
 `
