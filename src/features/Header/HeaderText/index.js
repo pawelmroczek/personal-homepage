@@ -1,9 +1,9 @@
-import { StyledSpan } from "../../../common/Span";
+import { Caption } from "../../../common/Caption";
 import { Wrapper, StyledHeader, StyledParagraph } from "./styled";
 
 const HeaderText = () => (
   <Wrapper>
-    <StyledSpan>This is</StyledSpan>
+    <Caption>This is</Caption>
     <StyledHeader>Paweł Mroczek</StyledHeader>
     <StyledParagraph>
       👨🏻‍💻 I'm a passionate Frontend Developer in love with React, <br />

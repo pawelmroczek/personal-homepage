@@ -1,4 +1,4 @@
-import { StyledSpan } from "../../common/Span";
+import { Caption } from "../../common/Caption";
 import {
   Container,
   Email,
@@ -15,7 +15,7 @@ import { InstagramIcon } from "./svgs/InstagramIcon";
 
 const Footer = () => (
   <Container>
-    <StyledSpan>Let's talk!</StyledSpan>
+    <Caption>Let's talk!</Caption>
     <EmailContainer>
       <Email href="mailto:pawel.mroczekpl@gmail.com">
         pawel.mroczekpl@gmail.com
