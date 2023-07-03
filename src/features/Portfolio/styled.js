@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { StyledH2 } from "../../common/StyledH2/StyledH2";
 
 export const Wrapper = styled.section`
   padding: 0px;
@@ -15,21 +16,10 @@ export const PortfolioHeader = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
-export const StyledTilte = styled.h2`
-  font-size: 30px;
-  font-family: Inter;
+export const StyledTilte = styled(StyledH2)`
   margin: 12px 0 8px;
-  font-weight: 900;
-  letter-spacing: 1.5px;
-  color: ${({ theme }) => theme.colors.mainText};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
-    font-size: 18px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    letter-spacing: 0.9px;
     margin: 12px 0 16px;
   }
 `;

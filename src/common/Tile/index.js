@@ -1,10 +1,11 @@
-import { Container, Divider, StyledSpan, StyledTitle } from "./styled";
+import { StyledH2 } from "../StyledH2/StyledH2";
+import { Container, Divider, StyledSpan } from "./styled";
 
 const Tile = ({ title, content, icon }) => (
   <Container>
-    <StyledTitle>
+    <StyledH2>
       {title} <StyledSpan>{icon}</StyledSpan>
-    </StyledTitle>
+    </StyledH2>
 
     <Divider></Divider>
     <div>{content}</div>

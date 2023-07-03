@@ -14,18 +14,6 @@ export const Container = styled.section`
   }
 `;
 
-export const StyledTitle = styled.h2`
-  font-size: 30px;
-  font-family: Inter;
-  font-weight: 900;
-  letter-spacing: 1.5px;
-  margin:0;
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    font-size:18px;
-  }
-  word-wrap: break-word;
-`;
-
 export const StyledSpan = styled.span`
   text-align: center;
   font-size: 24px;
