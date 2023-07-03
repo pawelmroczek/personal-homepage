@@ -10,6 +10,12 @@ export const Container = styled.div`
   line-height: 140%;
   letter-spacing: 0.9px;
   color: ${({ theme }) => theme.colors.textSecondary};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 `;
 
 export const Tile = styled.div`
@@ -25,6 +31,16 @@ export const Tile = styled.div`
   &:hover {
     border: 6px solid ${({ theme }) => theme.colors.tileBorder};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    padding: 24px;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+  }
 `;
 
 export const Title = styled.h3`
@@ -34,10 +50,29 @@ export const Title = styled.h3`
   letter-spacing: 1.2px;
   color: ${({ theme }) => theme.colors.blue};
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+  }
 `;
 
 export const StyledParagraph = styled.div`
   margin: 24px 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    margin:16px 0;
+  }
 `;
 export const StyledLink = styled.a`
   font-size: 18px;
@@ -51,5 +86,14 @@ export const StyledLink = styled.a`
   word-wrap: break-word;
   &:hover {
     border-bottom: 1px solid ${({ theme }) => theme.colors.linkBorderHover};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
   }
 `;

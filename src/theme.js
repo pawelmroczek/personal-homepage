@@ -17,6 +17,9 @@ const theme = {
       boxShadow:
         "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02)",
     },
+    breakpoints:{
+      phoneMedia:767,
+    },
   },
   dark: {
     colors: {
@@ -35,6 +38,9 @@ const theme = {
       buttonActive: "",
       boxShadow:
         "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02)",
+    },
+    breakpoints:{
+      phoneMedia:767,
     },
   },
 };

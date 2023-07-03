@@ -25,4 +25,9 @@ export const StyledLink = styled.a`
    box-shadow:${({theme})=>theme.colors.buttonActive}
   }
 
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
+    font-size:18px;
+    margin-top:24px;
+  }
 `;
