@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
   margin-top: 24px;
   font-size: 18px;
@@ -12,8 +12,12 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.colors.textSecondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
-    grid-template-columns: repeat(auto-fit,minmax(288px,1fr));
+    grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mediumMedia}px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -22,7 +26,7 @@ export const Tile = styled.div`
   padding: 56px;
   box-shadow: ${({ theme }) => theme.colors.boxShadow};
   display: flex;
-  gap:24px;
+  gap: 24px;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 4px;
@@ -33,7 +37,7 @@ export const Tile = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
-    gap:16px;
+    gap: 16px;
     padding: 24px;
     font-size: 14px;
     font-family: Inter;
@@ -72,7 +76,7 @@ export const StyledParagraph = styled.div`
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.7px;
-    margin:16px 0;
+    margin: 16px 0;
   }
 `;
 export const StyledLink = styled.a`

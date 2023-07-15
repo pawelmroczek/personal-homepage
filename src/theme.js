@@ -19,6 +19,7 @@ const theme = {
     },
     breakpoints:{
       phoneMedia:767,
+      mediumMedia:1200,
     },
   },
   dark: {
@@ -41,6 +42,7 @@ const theme = {
     },
     breakpoints:{
       phoneMedia:767,
+      mediumMedia:1200,
     },
   },
 };
