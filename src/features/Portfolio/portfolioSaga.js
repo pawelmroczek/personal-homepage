@@ -6,7 +6,7 @@ import { saveModeToLocalStorage } from "../../modeLocalStorage";
 function* fetchProjectsHandler(){
     try{
       yield delay(2500)
-      const projects = yield call(getProjects, "pawelmrkoczek");
+      const projects = yield call(getProjects, "pawelmroczek");
       yield put(setStatus("success"));
       yield put(setProjects(projects));
     }catch (error){

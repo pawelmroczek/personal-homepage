@@ -4,6 +4,7 @@ export const Container = styled.footer`
   margin: 120px 0;
   display: flex;
   flex-direction: column;
+  color: ${({ theme }) => theme.colors.mainText};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
     margin: 48px 0;
@@ -36,8 +37,8 @@ export const Email = styled.a`
 export const EmailContainer = styled.div`
   margin: 24px 0;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    margin:12px 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    margin: 12px 0;
   }
 `;
 
@@ -63,18 +64,20 @@ export const StyledParagraph = styled.p`
 
 export const Icon = styled.span`
   font-size: 24px;
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    font-size:16px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 16px;
   }
 `;
 
 export const LinksContainer = styled.div`
+  margin-top: 56px;
   display: flex;
   gap: 24px;
   color: ${({ theme }) => theme.colors.mainText};
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    gap:16px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    gap: 16px;
+    margin-top:40px;
   }
 `;
 export const LogoLink = styled.a`
