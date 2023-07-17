@@ -53,7 +53,7 @@ export const LinksContainer = styled.div`
   margin-top: 56px;
   display: flex;
   gap: 24px;
-  color: ${({ theme }) => theme.colors.mainText};
+  
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
     gap: 16px;
@@ -62,6 +62,7 @@ export const LinksContainer = styled.div`
 `;
 export const LogoLink = styled.a`
   transition: color 0.3s ease-in-out;
+  color: ${({ theme }) => theme.colors.mainText};
 
   &:hover {
     color: ${({ theme }) => theme.colors.blue};
