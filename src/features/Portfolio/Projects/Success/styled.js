@@ -12,7 +12,8 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.colors.textSecondary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
-    grid-template-columns: 1fr;
+    display:flex;
+    flex-direction:column;
     gap: 16px;
   }
 
