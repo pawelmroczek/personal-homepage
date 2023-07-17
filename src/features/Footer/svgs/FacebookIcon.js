@@ -1,9 +1,6 @@
-import { useSelector } from "react-redux";
 import { StyledSVG } from "../../../common/svg";
-import { selectMode } from "../../Portfolio/portfolioSlice";
 
-export const FacebookIcon = ({ hover }) => {
-  const mode = useSelector(selectMode);
+export const FacebookIcon = () => {
 
   return (
     <StyledSVG

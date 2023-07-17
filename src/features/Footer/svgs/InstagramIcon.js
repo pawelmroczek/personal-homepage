@@ -1,10 +1,7 @@
 import { StyledSVG } from "../../../common/svg";
-import { useSelector } from "react-redux";
-import { selectMode } from "../../Portfolio/portfolioSlice";
 
 
-export const InstagramIcon = ({ hover }) => {
-  const mode = useSelector(selectMode);
+export const InstagramIcon = () => {
 
   return (
     <StyledSVG
