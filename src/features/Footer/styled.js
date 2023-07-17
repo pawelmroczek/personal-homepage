@@ -42,26 +42,6 @@ export const EmailContainer = styled.div`
   }
 `;
 
-export const StyledParagraph = styled.p`
-  max-width: 670px;
-  font-size: 18px;
-  font-family: Inter;
-  line-height: 140%;
-  letter-spacing: 0.9px;
-  color: ${({ theme }) => theme.colors.mainText};
-  margin: 0 0 56px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
-    font-size: 14px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.7px;
-    margin: 0 0 40px;
-  }
-`;
-
 export const Icon = styled.span`
   font-size: 24px;
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
@@ -77,7 +57,7 @@ export const LinksContainer = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
     gap: 16px;
-    margin-top:40px;
+    margin-top: 40px;
   }
 `;
 export const LogoLink = styled.a`

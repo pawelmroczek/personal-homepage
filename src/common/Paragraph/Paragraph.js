@@ -8,7 +8,7 @@ export const Paragraph = styled.p`
   line-height: 140%;
   letter-spacing: 0.9px;
   max-width: 670px;
-  margin:0;
+  margin: 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
     font-size: 14px;

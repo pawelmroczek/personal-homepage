@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import { selectMode } from "./features/Portfolio/portfolioSlice";
 
 function App() {
-  const mode = useSelector(selectMode)
+  const mode = useSelector(selectMode);
 
   return (
     <ThemeProvider theme={theme[mode]}>

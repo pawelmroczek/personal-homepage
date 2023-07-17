@@ -1,4 +1,3 @@
-
 export const GithubLogo = () => (
   <svg
     width="40"

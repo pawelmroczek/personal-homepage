@@ -11,19 +11,9 @@ export const StyledHeader = styled.h1`
   color: ${({ theme }) => theme.colors.mainText};
   margin: 12px 0 35px 0;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    font-size:24px;
-    margin:8px 0 16px 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 24px;
+    margin: 8px 0 16px 0;
   }
 `;
 
-export const StyledParagraph = styled.p`
-  font-size: 20px;
-  line-height: 140%;
-  letter-spacing: 1px;
-  margin:0px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    font-size:17px;
-  }
-`;

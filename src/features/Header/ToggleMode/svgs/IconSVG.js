@@ -1,6 +1,6 @@
 import { StyledSVG } from "../../../../common/svg";
 
-export const IconSVG = ({ darkMode, hover }) => {
+export const IconSVG = ({ darkMode }) => {
 
   const color = darkMode ? "#252525" : "white";
 

@@ -13,5 +13,5 @@ export const Icon = styled.svg`
   width: 160px;
   height: 160px;
   animation: spin 2s linear infinite;
-  color:${({theme})=>theme.colors.blue};
+  color: ${({ theme }) => theme.colors.blue};
 `;

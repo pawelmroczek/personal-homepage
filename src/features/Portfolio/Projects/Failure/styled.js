@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   line-height: 140%;
   letter-spacing: 1px;
   text-align: center;
-  color: ${({theme})=>theme.colors.mainText}
+  color: ${({ theme }) => theme.colors.mainText};
 `;
 export const Title = styled.h3`
   font-size: 24px;
@@ -26,11 +26,11 @@ export const Link = styled.a`
   font-family: Inter;
   font-weight: 600;
   letter-spacing: 1.003px;
-  text-decoration:none;
-  background-color:${({ theme }) => theme.colors.blue};
+  text-decoration: none;
+  background-color: ${({ theme }) => theme.colors.blue};
   border-radius: 4px;
-  border: 1px solid var(--semi-grey, rgba(209, 213, 218, 0.10));
-  color:${({theme})=>theme.colors.white};
-  padding:12px 16px;
-  margin-top:32px;
+  border: 1px solid var(--semi-grey, rgba(209, 213, 218, 0.1));
+  color: ${({ theme }) => theme.colors.white};
+  padding: 12px 16px;
+  margin-top: 32px;
 `;

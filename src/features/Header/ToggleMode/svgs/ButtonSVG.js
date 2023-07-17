@@ -1,6 +1,7 @@
 import { StyledSVG } from "../../../../common/svg";
 
-export const ButtonSVG = ({ hover, darkMode }) => {
+export const ButtonSVG = ({darkMode }) => {
+
   return (
     <StyledSVG
       width="48"

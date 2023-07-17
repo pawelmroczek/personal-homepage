@@ -66,19 +66,6 @@ export const Title = styled.h3`
   }
 `;
 
-export const StyledParagraph = styled.div`
-  margin: 24px 0;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
-    font-size: 14px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.7px;
-    margin: 16px 0;
-  }
-`;
 export const StyledLink = styled.a`
   font-size: 18px;
   font-family: Inter;

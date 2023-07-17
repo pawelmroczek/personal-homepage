@@ -1,5 +1,4 @@
-import { Icon, Wrapper } from "./styled";
-import loadingIcon from "../../../../images/loading-icon.svg";
+import { Wrapper } from "./styled";
 import { Loader } from "../../svgs/Loader";
 import { LeadParagraph } from "../../../../common/LeadParagraph/LeadParagraph";
 

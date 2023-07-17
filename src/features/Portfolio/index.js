@@ -5,11 +5,11 @@ import { GithubLogo } from "./svgs/GithubLogo";
 const Portfolio = () => (
   <Wrapper>
     <PortfolioHeader>
-      <GithubLogo/>
+      <GithubLogo />
       <StyledTilte>Portfolio</StyledTilte>
       <StyledSpan>My recent projects</StyledSpan>
     </PortfolioHeader>
-    <Projects/>
+    <Projects />
   </Wrapper>
 );
 

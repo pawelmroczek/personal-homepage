@@ -1,5 +1,5 @@
-export const mySkills ={
-  actuall:[
+export const mySkills = {
+  actuall: [
     "Semantic & accessible HTML",
     "React Router",
     "Promises, Async/Await",
@@ -23,13 +23,13 @@ export const mySkills ={
     "Git",
     "CSS Flexbox",
   ],
-  next:[
+  next: [
     "Node.js",
     "React Context",
     "Cypress",
     "Unit testing",
     "TypeScript",
     "JS classes",
-    "Flutter"
-  ]
-}
+    "Flutter",
+  ],
+};

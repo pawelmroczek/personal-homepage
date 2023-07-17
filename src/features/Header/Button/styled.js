@@ -18,16 +18,15 @@ export const StyledLink = styled.a`
   margin-top: 32px;
   transition: box-shadow 0.3s ease-in-out;
   &:hover {
-    box-shadow:${({theme})=>theme.colors.buttonFocus};
+    box-shadow: ${({ theme }) => theme.colors.buttonFocus};
   }
 
-  &:active{
-   box-shadow:${({theme})=>theme.colors.buttonActive}
+  &:active {
+    box-shadow: ${({ theme }) => theme.colors.buttonActive};
   }
 
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    font-size:18px;
-    margin-top:24px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 18px;
+    margin-top: 24px;
   }
 `;

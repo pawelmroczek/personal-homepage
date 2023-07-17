@@ -13,7 +13,13 @@ export const Dot = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle id="Ellipse 31" cx="4.5" cy="4.5" r="4.5" fill={mode==="dark" ? "#2188FF" : "#0366D6"} />
+      <circle
+        id="Ellipse 31"
+        cx="4.5"
+        cy="4.5"
+        r="4.5"
+        fill={mode === "dark" ? "#2188FF" : "#0366D6"}
+      />
     </StyledBullet>
   );
 };

@@ -2,7 +2,6 @@ import { Caption } from "../../common/Caption";
 import {
   Container,
   Email,
-  StyledParagraph,
   Icon,
   LinksContainer,
   LogoLink,
@@ -12,7 +11,6 @@ import { GithubIcon } from "./svgs/GithubIcon";
 import { FacebookIcon } from "./svgs/FacebookIcon";
 import { LinkedinIcon } from "./svgs/LinkedinIcon";
 import { InstagramIcon } from "./svgs/InstagramIcon";
-import { LeadParagraph } from "../../common/LeadParagraph/LeadParagraph";
 import { Paragraph } from "../../common/Paragraph/Paragraph";
 
 const Footer = () => (

@@ -1,6 +1,6 @@
 import { StyledSVG } from "../../../../common/svg";
 
-export const BGIconSVG = ({ hover, darkMode }) => {
+export const BGIconSVG = ({darkMode }) => {
   return (
     <StyledSVG
       width="20"

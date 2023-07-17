@@ -6,7 +6,6 @@ const Tile = ({ title, content, icon }) => (
     <StyledH2>
       {title} <StyledSpan>{icon}</StyledSpan>
     </StyledH2>
-
     <Divider></Divider>
     <div>{content}</div>
   </Container>

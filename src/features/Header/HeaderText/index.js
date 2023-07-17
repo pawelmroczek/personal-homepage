@@ -1,6 +1,6 @@
 import { Caption } from "../../../common/Caption";
 import { LeadParagraph } from "../../../common/LeadParagraph/LeadParagraph";
-import { Wrapper, StyledHeader, StyledParagraph } from "./styled";
+import { Wrapper, StyledHeader } from "./styled";
 
 const HeaderText = () => (
   <Wrapper>

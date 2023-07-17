@@ -7,8 +7,8 @@ export const StyledList = styled.ul`
   margin: 0px;
   list-style: none;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    display:block;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    display: block;
   }
 `;
 
@@ -19,11 +19,7 @@ export const StyledItem = styled.li`
   line-height: 140%;
   letter-spacing: 0.9px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px){
-    font-size:14px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.phoneMedia}px) {
+    font-size: 14px;
   }
 `;
-
-export const StyledImg= styled.img`
-  margin-right:16px;
-`
