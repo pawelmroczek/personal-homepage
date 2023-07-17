@@ -27,16 +27,16 @@ const Footer = () => (
       ideas come to life, feel free to conatct me <Icon>🤞</Icon>
     </Paragraph>
     <LinksContainer>
-      <LogoLink>
+      <LogoLink href="https://github.com/pawelmroczek">
         <GithubIcon />
       </LogoLink>
-      <LogoLink>
+      <LogoLink href="https://www.facebook.com/pawel.mroczekpl/">
         <FacebookIcon />
       </LogoLink>
-      <LogoLink>
+      <LogoLink href="https://www.linkedin.com/in/pawel-mroczek/">
         <LinkedinIcon />
       </LogoLink>
-      <LogoLink>
+      <LogoLink href="https://www.instagram.com/pawel__mroczek/">
         <InstagramIcon />
       </LogoLink>
     </LinksContainer>
